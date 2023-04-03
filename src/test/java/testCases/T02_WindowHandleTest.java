@@ -8,7 +8,7 @@ import utilities.TestBase;
 
 import java.util.Set;
 
-public class WindowHandleTest extends TestBase {
+public class T02_WindowHandleTest extends TestBase {
     //● Go to https://the-internet.herokuapp.com/windows.
     //● Verify that the text on the page is “Opening a new window”.
     //● Verify that the page title is “The Internet”.

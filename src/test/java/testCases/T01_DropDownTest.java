@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import utilities.TestBase;
 
 import java.time.Duration;
 import java.util.List;
@@ -18,7 +17,7 @@ import java.util.List;
 
 
 
-public class DropDownTest {
+public class T01_DropDownTest {
     protected WebDriver driver;
     Select select;
     @Before

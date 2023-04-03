@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import utilities.ReusableMethods;
 import utilities.TestBase;
 
-public class FormFillingTest extends TestBase {
+public class T03_FormFillingTest extends TestBase {
     @Test
     public void test01(){
         // go to facebook.com
@@ -35,11 +35,11 @@ public class FormFillingTest extends TestBase {
                 .sendKeys(faker.internet().password())
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.TAB)
-                .sendKeys("23")
+                .sendKeys("01")
                 .sendKeys(Keys.TAB)
-                .sendKeys("Oct")
+                .sendKeys("Jan.")
                 .sendKeys(Keys.TAB)
-                .sendKeys("1990")
+                .sendKeys("1987")
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.ARROW_RIGHT).perform();
