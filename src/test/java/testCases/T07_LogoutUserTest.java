@@ -5,10 +5,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import utilities.ReusableMethods;
 import utilities.TestBase;
 
-public class C07_LogoutUserTest extends TestBase {
+public class T07_LogoutUserTest extends TestBase {
     @Test
     public void test01(){
    //    1. Launch browser
