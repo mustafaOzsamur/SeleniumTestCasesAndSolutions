@@ -35,12 +35,12 @@ public class T12_SearchProductTest extends TestBase {
         WebElement allTheProductsElementi=driver.findElement(By.xpath("//div[@class='features_items']"));
         Assert.assertTrue(allTheProductsElementi.isDisplayed());
 
-        List<WebElement> tumUrunler=driver.findElements(By.xpath("//div[@class='features_items']"));
+        List<WebElement> tumUrunler=driver.findElements(By.xpath("//a[text()='View Product']"));
         for (WebElement eachElemet:tumUrunler) {
             System.out.println(eachElemet.getText()+" ,");
-            System.out.println(tumUrunler.size());
 
         }
-
+        System.out.println(tumUrunler.size());
+        Assert.assertTrue(tumUrunler.size()>5);
     }
 }
