@@ -42,5 +42,7 @@ public class T12_SearchProductTest extends TestBase {
         }
         System.out.println(tumUrunler.size());
         Assert.assertTrue(tumUrunler.size()>5);
+
+       
     }
 }
